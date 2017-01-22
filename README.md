@@ -1,25 +1,14 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+# React Weather Forecaster
 
 ###Getting Started###
-
-There are two methods for getting started with this repo.
+This repo uses google map and ,weather forecaster api to graph the temperature, humidity and pressure over 5 days every 3 hours
 
 ####Familiar with Git?#####
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
+	> git clone https://github.com/milangupta511/react-weather-forecast
+	> cd react-weather-forecaster
 	> npm install
 	> npm start
 ```
