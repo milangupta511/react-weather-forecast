@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from  'react-redux';
+import ViewListItem from '../components/view_list_item';
 class ViewList extends Component{
 	constructor(props){
 		super(props)
@@ -7,7 +8,7 @@ class ViewList extends Component{
 	}
 	renderList(){
 		return this.props.toDoList.map((item,index) =>{
-			return (<li key={index}>{index+1}. {item}</li>)
+			return (<ViewListItem key={index} index={index} term={item.term} isEditMode={item.isEditMode}/>)
 		})
 	}
 	render(){
