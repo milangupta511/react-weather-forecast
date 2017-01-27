@@ -4,7 +4,7 @@ import ViewList from '../containers/view_list';
 export default class App extends Component {
   render() {
     return (
-    	<div>
+    	<div className="demo-card-wide mdl-card mdl-shadow--2dp">
 			<AddList />
 			<ViewList />
 		</div>

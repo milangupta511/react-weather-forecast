@@ -21,9 +21,11 @@ class AddList extends Component{
 	render(){
 
 		return(
-			<form method="POST" onSubmit={this.onSubmitToDo}>
-				<input type="text" value={this.state.term} onChange={this.onInputChange}/>
-				<input type="submit" value="Add"/>
+			<form className="add-todo-form" method="POST" onSubmit={this.onSubmitToDo}>
+				<input type="text" placeholder="Add your task here..." value={this.state.term} onChange={this.onInputChange}/>
+				<button type="submit" className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored add-todo-button">
+  <i className="material-icons">add</i>
+</button>
 			</form>
 		)
 	}

@@ -1,3 +1,17 @@
-td{
-	width:500px;
+.demo-card-wide.mdl-card {
+  width: 768px;
+}
+.add-todo-form{
+	width:100%;
+}
+.add-todo-form input[type="text"]{
+	width:100%;
+	padding:15px 80px 15px 10px;
+	font-size:2em;
+	margin-right:10px;
+}
+.add-todo-button{
+
+	left:90%;
+	top:-65px;
 }
