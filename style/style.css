@@ -5,7 +5,7 @@
 	width:100%;
 }
 .add-todo-form input[type="text"]{
-	width:100%;
+	width:90%;
 	padding:15px 80px 15px 10px;
 	font-size:2em;
 	margin-right:10px;
@@ -13,10 +13,10 @@
 thead{
 	display:none;
 }
-.add-todo-button{
+/*.add-todo-button{
 	left:90%;
 	top:-65px;
-}
+}*/
 .mdl-data-table tbody{
 	width:100%;
 }

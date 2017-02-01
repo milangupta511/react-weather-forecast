@@ -2,6 +2,8 @@ export const ADD_TODO='ADD_TODO';
 export const DELETE_TODO = 'DELETE_TODO'
 export const EDIT_TODO = 'EDIT_TODO'
 export const EDIT_ITEM_MODE = 'EDIT_ITEM_MODE'
+export const TOGGLE_COMPLETE ='TOGGLE_COMPLETE'
+
 export function addToDo(item){
 	
  return({
@@ -26,6 +28,13 @@ export function editToDo(term,index){
 export function editItemMode(index){
 	return({
 		type:EDIT_ITEM_MODE,
+		payload:index
+	})
+}
+
+export function toggleCompleteToDo(index){
+	return({
+		type:TOGGLE_COMPLETE,
 		payload:index
 	})
 }
